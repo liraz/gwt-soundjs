@@ -1,8 +1,9 @@
 
-GWT Numeral
+GWT SoundJS
 ===========
 
-A numeral.js clone for GWT
+A SoundJS wrapper for GWT
+http://www.createjs.com/soundjs
 
 Adding to your project
 =======
@@ -18,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.liraz:gwt-numeral:1.5.3'
+    compile 'com.github.liraz:gwt-soundjs:0.6.2'
 }
 ```
 
@@ -31,7 +32,7 @@ dependencies {
 
 <dependency>
     <groupId>com.github.liraz</groupId>
-    <artifactId>gwt-numeral</artifactId>
-    <version>1.5.3</version>
+    <artifactId>gwt-soundjs</artifactId>
+    <version>0.6.2</version>
 </dependency>
 ```

@@ -8,8 +8,8 @@
     <artifactId>gwt-soundjs</artifactId>
     <packaging>pom</packaging>
     <version>0.6.2</version>
-    <name>Gwt Numeral Project</name>
-	<description>Gwt soundjs is a SoundJS clone written in GWT.</description>
+    <name>Gwt SoundJS Project</name>
+	<description>Gwt soundjs is a SoundJS wrapper written in GWT.</description>
     <url>https://github.com/liraz/gwt-soundjs</url>
 
     <licenses>
