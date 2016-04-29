@@ -29,10 +29,7 @@ public class SoundJs extends JavaScriptObject {
      */
     public static final native SoundJs onFileLoad(SimpleCallback soundsLoadedCallback) /*-{
         var callback = @org.sgx.jsutil.client.JsUtil::toJsFunction(Lorg/sgx/jsutil/client/SimpleCallback;)(soundsLoadedCallback);
-        $wnd.createjs.Sound.on("fileload", function() {
-            console.log("ssssss");
-            callback();
-        });
+        $wnd.createjs.Sound.on("fileload", callback);
     }-*/;
 
     /**
